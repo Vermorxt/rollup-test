@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react'
+import React, { FC, forwardRef } from 'react'
 import { Ui_ArtboardProps } from '../type'
 
 const Ui_Artboard = forwardRef<HTMLDivElement, Ui_ArtboardProps>(

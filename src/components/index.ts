@@ -18,7 +18,7 @@ export { default as Ui_Flag } from './flag'
 export { default as Ui_Flex } from './flex/flex'
 
 export { default as Ui_FlexGrow } from './flexgrow/flexgrow'
-// export { default as Ui_Footer } from './footer'
+export { default as Ui_Footer } from './footer'
 export { default as Ui_Grid } from './grid/grid'
 // export { default as Ui_Hero } from './hero'
 export { default as Ui_Indicator } from './indicator'

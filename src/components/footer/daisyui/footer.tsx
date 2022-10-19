@@ -2,8 +2,15 @@ import { FC, forwardRef } from 'react'
 import { Ui_FooterProps } from '../type'
 import React from 'react'
 
+const FooterTitle = forwardRef<HTMLDivElement, Ui_FooterProps>(({ children, className, style, ...rest }, ref) => {
+  return (
+    <div className={`footer-title ${className ? className : ''} `} style={style} ref={ref}>
+      {children}
+    </div>
+  )
+})
 interface FooterComponent extends FC<Ui_FooterProps> {
-  Title: typeof Title
+  Title: typeof FooterTitle
 }
 
 const Ui_Footer: FC<Ui_FooterProps> & FooterComponent = ({
@@ -16,6 +23,7 @@ const Ui_Footer: FC<Ui_FooterProps> & FooterComponent = ({
   center,
   itemsCenter,
   style,
+  ...rest
 }) => {
   return (
     <footer
@@ -35,14 +43,6 @@ const Ui_Footer: FC<Ui_FooterProps> & FooterComponent = ({
   )
 }
 
-const Title = forwardRef<HTMLDivElement, Ui_FooterProps>(({ children, className, style }, ref) => {
-  return (
-    <div className={`footer-title ${className ? className : ''} `} style={style} ref={ref}>
-      {children}
-    </div>
-  )
-})
-
-Ui_Footer.Title = Title
+Ui_Footer.Title = FooterTitle
 
 export default Ui_Footer

@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/vermorxt"
   },
-  "version": "0.0.23",
+  "version": "0.0.31",
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",

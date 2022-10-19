@@ -3,9 +3,9 @@ import { Ui_CardProps } from '../type'
 import React from 'react'
 
 interface CardComponent extends FC<Ui_CardProps> {
-  Body: typeof Body
-  Title: typeof Title
-  Actions: typeof Actions
+  Body: typeof CardBody
+  Title: typeof CardTitle
+  Actions: typeof CardActions
 }
 
 const Ui_Card: FC<Ui_CardProps> & CardComponent = ({ children, className, style, ...rest }) => {
@@ -47,7 +47,7 @@ const Ui_Card: FC<Ui_CardProps> & CardComponent = ({ children, className, style,
   )
 }
 
-const Title = forwardRef<HTMLDivElement, Ui_CardProps>(({ children, className, style, ...rest }, ref) => {
+const CardTitle = forwardRef<HTMLDivElement, Ui_CardProps>(({ children, className, style, ...rest }, ref) => {
   return (
     <div className={`card-title ${className ? className : ''}`} ref={ref} style={style}>
       {children}
@@ -55,7 +55,7 @@ const Title = forwardRef<HTMLDivElement, Ui_CardProps>(({ children, className, s
   )
 })
 
-const Body = forwardRef<HTMLDivElement, Ui_CardProps>(({ children, className, ...rest }, ref) => {
+const CardBody = forwardRef<HTMLDivElement, Ui_CardProps>(({ children, className, ...rest }, ref) => {
   const { itemsCenter, textCenter, style } = rest
 
   return (
@@ -72,7 +72,7 @@ const Body = forwardRef<HTMLDivElement, Ui_CardProps>(({ children, className, ..
   )
 })
 
-const Actions = forwardRef<HTMLDivElement, Ui_CardProps>(
+const CardActions = forwardRef<HTMLDivElement, Ui_CardProps>(
   ({ children, className, style, actionCenter, actionStart, actionSpaceBetween, ...rest }, ref) => {
     return (
       <div
@@ -91,8 +91,8 @@ const Actions = forwardRef<HTMLDivElement, Ui_CardProps>(
   }
 )
 
-Ui_Card.Title = Title
-Ui_Card.Body = Body
-Ui_Card.Actions = Actions
+Ui_Card.Title = CardTitle
+Ui_Card.Body = CardBody
+Ui_Card.Actions = CardActions
 
 export default Ui_Card
