@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@cms/core/table should create snapshot 1`] = `
+<div>
+  <table
+    class="table w-full 
+        
+        
+        
+        text-undefined-content bg-undefined 
+      "
+    tabindex="0"
+  />
+</div>
+`;

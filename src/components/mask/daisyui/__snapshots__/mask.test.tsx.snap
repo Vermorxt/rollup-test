@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@cms/core/[object Object] should create snapshot 1`] = `
+<div>
+  <img
+    alt=""
+    class="
+          mask  
+          
+           
+        "
+    src="/static/media/png/placeholder.png"
+  />
+</div>
+`;

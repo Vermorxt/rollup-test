@@ -9,17 +9,19 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import css from 'rollup-plugin-css-export'
 import tailwind from 'rollup-plugin-tailwind'
 
+const packageJson = require('./package.json')
+
 export default [
   {
     input: 'src/index.ts',
     output: [
       {
-        file: 'dist/cjs/index.js',
+        file: packageJson.main,
         format: 'cjs',
         sourcemap: true,
       },
       {
-        file: 'dist/esm/index.js',
+        file: packageJson.module,
         format: 'esm',
         sourcemap: true,
       },

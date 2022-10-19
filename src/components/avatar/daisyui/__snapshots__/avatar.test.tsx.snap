@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@cms/core/Ui_Avatar should match snapshot 1`] = `
+<div>
+  <div
+    class="
+        avatar
+         
+         
+         
+        "
+  >
+    <div
+      class="
+         
+         w-24 
+        rounded-xl,rounded-2xl,rounded-3xl,rounded-lg,rounded-full  
+          
+        "
+    >
+      <img
+        alt=""
+        src="/static/media/png/placeholder.png"
+      />
+    </div>
+  </div>
+</div>
+`;
