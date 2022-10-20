@@ -1,3 +1,2 @@
-export { Ui_Docu_Table } from './daisyui/docu'
-export { default } from './daisyui/table'
+export { default } from './table'
 export type { Ui_TableProps } from './type'

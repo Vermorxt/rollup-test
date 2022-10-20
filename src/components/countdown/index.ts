@@ -1,3 +1,2 @@
-export { default } from './daisyui/countdown'
-export { Ui_Docu_Countdown } from './daisyui/docu'
+export { default } from './countdown'
 export type { Ui_CountdownProps } from './type'

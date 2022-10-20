@@ -1,3 +1,2 @@
-export { Ui_Docu_Link } from './daisyui/docu'
-export { default } from './daisyui/link'
+export { default } from './link'
 export type { Ui_LinkProps } from './type'

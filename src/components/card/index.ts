@@ -1,3 +1,2 @@
-export { default } from './daisyui/card'
-export { Ui_Docu_Card } from './daisyui/docu'
+export { default } from './card'
 export type { Ui_CardProps } from './type'

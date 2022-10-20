@@ -1,3 +1,2 @@
-export { Ui_Docu_Hero } from './daisyui/docu'
-export { default } from './daisyui/hero'
+export { default } from './hero'
 export type { Ui_HeroProps } from './type'

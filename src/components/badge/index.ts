@@ -1,3 +1,2 @@
-export { default } from './daisyui/badge'
-export { Ui_Docu_Badge } from './daisyui/docu'
+export { default } from './badge'
 export type { Ui_BadgeProps } from './type'

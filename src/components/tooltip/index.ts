@@ -1,3 +1,2 @@
-export { Ui_Docu_Tooltip } from './daisyui/docu'
-export { default } from './daisyui/tooltip'
+export { default } from './tooltip'
 export type { Ui_TooltipProps } from './type'
