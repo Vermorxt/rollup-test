@@ -32,7 +32,9 @@ export default [
       peerDepsExternal(),
       terser(),
       tailwind(),
-      typescript({ tsconfig: './tsconfig.json' }),
+      typescript({
+        tsconfig: './tsconfig.json',
+      }),
       postcss({
         minimize: true,
         extract: true,

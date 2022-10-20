@@ -4,5 +4,4 @@ module.exports = {
   arrowParens: 'avoid',
   printWidth: 120,
   endOfLine: 'auto',
-  exclude: ['package.json'],
 }
