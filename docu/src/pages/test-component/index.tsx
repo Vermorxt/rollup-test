@@ -1,6 +1,6 @@
 import dayjs from 'dayjs'
 import { useEffect, useRef } from 'react'
-import { DotsHorizontalIcon, MenuIcon } from '@heroicons/react/solid'
+import React from 'react'
 import {
   Ui_Alert,
   Ui_Badge,

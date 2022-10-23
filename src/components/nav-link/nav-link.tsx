@@ -1,10 +1,10 @@
-import { useRouter } from 'next/router'
 import { forwardRef, MouseEvent } from 'react'
 import { DRAWER_ID_SIDEBAR } from '../../_constants/main'
 import { generateClassNames, getClassNamesFromAttributes } from '../_utils/css-class-generator'
 import { Ui_NavLinkProps } from './type'
 import React from 'react'
 import Ui_Functions from '../../_utils'
+import { useRouter } from 'next/router'
 
 const Ui_NavLink: any = forwardRef<HTMLAnchorElement, Ui_NavLinkProps>(
   (
@@ -33,6 +33,8 @@ const Ui_NavLink: any = forwardRef<HTMLAnchorElement, Ui_NavLinkProps>(
   ) => {
     const router = useRouter()
     const handleClick = (event: MouseEvent<HTMLElement>) => {
+      console.log('NAV LINK click: ', event)
+
       event.preventDefault()
       event.stopPropagation()
 
@@ -51,7 +53,9 @@ const Ui_NavLink: any = forwardRef<HTMLAnchorElement, Ui_NavLinkProps>(
           window.location.hash = href
         }
       } else {
-        void router.replace(href).then(h => {
+        console.log('NAV LINK click: ', router)
+
+        void router?.replace(href).then(h => {
           if (!skipScrollTop) Ui_Functions.Helper.scrollTop()
 
           const elem = document.getElementById(DRAWER_ID_SIDEBAR) as HTMLInputElement

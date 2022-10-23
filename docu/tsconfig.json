@@ -22,8 +22,15 @@
     "declarationDir": "types",
     "sourceMap": true,
     "outDir": "dist",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/root/*": [
+        "*"
+      ],
+    }
   },
+  
   "include": [
     "next-env.d.ts",
     "**/*.ts",

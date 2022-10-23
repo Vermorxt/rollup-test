@@ -8,6 +8,8 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx)',
     './src/layout/*.{js,ts,jsx,tsx)',
     './src/layout/**/*.{js,ts,jsx,tsx)',
+    './src/components-docu/content/**/*.{js,ts,jsx,tsx)',
+    './src/components-docu/controller/**/*.{js,ts,jsx,tsx)',
     './src/components/Breadcrumbs/index.tsx',
     './src/components/ContentLoading/index.tsx',
     './src/components/DarkLightChanger/index.tsx',
