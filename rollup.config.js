@@ -19,13 +19,13 @@ export default [
         file: packageJson.main,
         format: 'cjs',
         sourcemap: true,
-        exclude: ['./docu'],
+        exclude: ['node_modules', 'docu'],
       },
       {
         file: packageJson.module,
         format: 'esm',
         sourcemap: true,
-        exclude: ['./docu'],
+        exclude: ['node_modules', 'docu'],
       },
     ],
     plugins: [

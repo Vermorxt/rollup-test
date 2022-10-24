@@ -1,4 +1,4 @@
-import { AnyType } from '../../_types/anytype'
+import { AnyType } from '../../_types/AnyType'
 
 export const checkForExistingValuesInNestedArrays = (
   array1: { [key: string]: AnyType }[][],

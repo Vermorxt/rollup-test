@@ -1,4 +1,4 @@
-import { AnyType } from '../../_types/anytype'
+import { AnyType } from '../../_types/AnyType'
 
 export const getObjectKeyAsString = (obj: AnyType, keySearchFor: string) => {
   let keyString = ''

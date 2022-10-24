@@ -1,8 +1,7 @@
-import { API_DATA_TABLE_DUMMY } from '@vermorxt/rollup-test'
-import { Ui_Avatar } from '../../../avatar'
-import { Ui_Button } from '../../../button/daisyui/button'
-import Ui_Flex from '../../../flex/flex'
+import { Ui_Avatar, Ui_Button, Ui_Flex } from '@vermorxt/rollup-test'
+
 import { Ui_Table } from '@vermorxt/rollup-test'
+import { API_DATA_TABLE_DUMMY } from '.'
 
 export const provideTableData = (tableData: any[]) => {
   const tableCodeExamples = [

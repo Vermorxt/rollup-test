@@ -1,5 +1,4 @@
 const nextJest = require('next/jest')
-console.log('DIRRRR NAME:::: ', __dirname + '/environments/.env.example')
 require('dotenv-safe').config({
   allowEmptyValues: true,
 })
@@ -19,12 +18,13 @@ const customJestConfig = {
   // if using TypeScript with a baseUrl set to the root directory then you need the below for alias' to work
   roots: ['<rootDir>/src/'],
   // testEnvironment: 'jsdom',
-  moduleDirectories: ['node_modules', '<rootDir>/ui-components/'],
+  moduleDirectories: ['node_modules'],
   testEnvironment: 'jest-environment-jsdom',
   testPathIgnorePatterns: [
     '<rootDir>/.next/',
     '<rootDir>/.jest/',
     '<rootDir>/.out/',
+    '<rootDir>/docu/',
     '<rootDir>/node_modules/',
     '<rootDir>/src/__tests__/mocks/',
     '<rootDir>/src/_mocks/',

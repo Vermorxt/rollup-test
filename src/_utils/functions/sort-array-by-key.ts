@@ -1,4 +1,4 @@
-import { AnyType } from '../../_types/anytype'
+import { AnyType } from '../../_types/AnyType'
 
 export const sortArrayByKey = (arr: AnyType[], key: string | number) => {
   if (!Array.isArray(arr)) {

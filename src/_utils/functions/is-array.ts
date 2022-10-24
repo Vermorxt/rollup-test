@@ -1,3 +1,3 @@
-import { AnyType } from '../../_types/anytype'
+import { AnyType } from '../../_types/AnyType'
 
 export const isArray = (element: AnyType) => Array.isArray(element)

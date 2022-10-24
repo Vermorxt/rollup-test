@@ -1,4 +1,4 @@
-import { AnyType } from '../../_types/anytype'
+import { AnyType } from '../../_types/AnyType'
 import { Helper } from '../../_utils/cms-utils'
 
 export interface GetClassNameAttributesProps {

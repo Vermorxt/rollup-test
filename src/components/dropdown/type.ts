@@ -1,5 +1,5 @@
 import { HTMLProps, ReactElement, ReactNode } from 'react'
-import { AnyType } from '../../_types/anytype'
+import { AnyType } from '../../_types/AnyType'
 import { Ui_Button_singleClass, Ui_Button_sizes, Ui_Button_variants } from '../button/type'
 import { Ui_colors } from '../_types/colors/ui_colors'
 

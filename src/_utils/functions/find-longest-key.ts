@@ -1,4 +1,4 @@
-import { AnyType } from '../../_types/anytype'
+import { AnyType } from '../../_types/AnyType'
 
 export const findLongestKey = (obj: string | AnyType[]) => {
   if (Array.isArray(obj) || typeof obj !== 'object' || Object.keys(obj).length === 0) {
