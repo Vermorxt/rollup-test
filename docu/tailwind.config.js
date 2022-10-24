@@ -1,7 +1,4 @@
-const { join } = require('path')
-
 module.exports = {
-  // mode: 'jit',
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/components/*.{js,ts,jsx,tsx)',
@@ -11,6 +8,7 @@ module.exports = {
     './src/components-docu/content/**/*.{js,ts,jsx,tsx)',
     './src/components-docu/controller/**/*.{js,ts,jsx,tsx)',
     './src/components/Breadcrumbs/index.tsx',
+    './src/components/Code/index.tsx',
     './src/components/ContentLoading/index.tsx',
     './src/components/DarkLightChanger/index.tsx',
     './src/components/LanguageSelector/index.tsx',
@@ -59,11 +57,11 @@ module.exports = {
       'coffee',
       'winter',
     ],
-    styled: true,
-    themes: true,
+    // styled: true,
+    // themes: true,
     // base: true,
-    utils: true,
-    logs: true,
-    rtl: false,
+    //  utils: true,
+    // logs: true,
+    // rtl: false,
   },
 }

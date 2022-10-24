@@ -3406,10 +3406,10 @@
     "@typescript-eslint/types" "5.40.1"
     eslint-visitor-keys "^3.3.0"
 
-"@vermorxt/rollup-test@0.0.55":
-  version "0.0.55"
-  resolved "https://npm.pkg.github.com/download/@vermorxt/rollup-test/0.0.55/2bf15734a6139ed7c347456c797ab2e460f1b4de#2bf15734a6139ed7c347456c797ab2e460f1b4de"
-  integrity sha512-GONta6DC9Z4N3RjPWKV++XXtvU7eu6Kj6JrEXy6s5CF3ZwQo2XhMgIfZBHl0MrwwQxKCIU+YwpurDVIjRpq3DQ==
+"@vermorxt/rollup-test@0.0.56":
+  version "0.0.56"
+  resolved "https://npm.pkg.github.com/download/@vermorxt/rollup-test/0.0.56/3d7d9ccefcfcda45baa96344c82ffdc4a30b23ac#3d7d9ccefcfcda45baa96344c82ffdc4a30b23ac"
+  integrity sha512-7S9yVt+fWJy3wZYhF1pU4m0zWumjQbYKYoSD2YOZf/kzc9FVjmT+AGX5ssL66odOEEElYzkGNEXIfl885aKPRQ==
   dependencies:
     "@heroicons/react" "^1.0.6"
     axios "^1.1.3"
