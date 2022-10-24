@@ -1,5 +1,6 @@
-import './../styles/tailwind-import.css'
-import '../../node_modules/@vermorxt/rollup-test/dist/cjs/index.css'
+// import './../styles/tailwind-import.css'
+
+// import '../../node_modules/@vermorxt/rollup-test/dist/cjs/index.css'
 import './../styles/main.scss'
 import nextI18nextConfig from './../../next-i18next.config'
 import { appWithTranslation } from 'next-i18next'

@@ -23,27 +23,19 @@ const Ui_Tabs: any = forwardRef<HTMLDivElement, Ui_TabProps & { Tab: FC<Ui_TabPr
 )
 
 export const Tab: any = forwardRef<HTMLAnchorElement, Ui_TabProps>(
-  ({ children, className, style, active, bordered, lifted, boxed, ...rest }, ref) => {
-    const convertAttributeToClassName_tab = [
-      ['large', 'medium', 'small', 'tiny', 'mini'], // NOTE: attributes to convert
-      ['lg', 'md', 'sm', 'xs', 'xxs'], // NOTE: attributes translated based on attributes above
-    ]
-
-    const classAttributes = getClassNamesFromAttributes({
-      names: rest,
-      convert: convertAttributeToClassName_tab,
-      withoutPrefix: [],
-      addPrefix: 'tab',
-    })
-
+  ({ children, className, style, active, bordered, lifted, large, medium, small, tiny, mini, boxed, ...rest }, ref) => {
     return (
       <a
         className={`tab 
-        ${classAttributes}
         ${className ? className : ''} 
         ${active ? 'tab-active' : ''} 
         ${bordered ? 'tab-bordered' : ''} 
         ${lifted ? 'tab-lifted' : ''} 
+        ${large ? 'tab-lg' : ''}
+        ${medium ? 'tab-md' : ''}
+        ${small ? 'tab-sm' : ''}
+        ${tiny ? 'tab-xs' : ''}
+        ${mini ? 'tab-xxs' : ''}
       `}
         style={style}
         ref={ref}

@@ -14,21 +14,6 @@ const Ui_Carousel: any = forwardRef<
 >(({ children, className, ...rest }, ref) => {
   const { center, end, vertical, rounded, style } = rest
 
-  const convertAttributeToClassName_carousel = [
-    ['center', 'end'], // NOTE: attributes to convert
-    [], // NOTE: attributes translated based on attributes above
-  ]
-
-  const usedItemsAttributes = getUsedAttributes(rest, { center, end, vertical })
-  const usedAttributeObj = convertObjectToArray(usedItemsAttributes)
-
-  const classAttributes = getClassNamesFromAttributes({
-    names: usedAttributeObj,
-    convert: convertAttributeToClassName_carousel,
-    withoutPrefix: [],
-    addPrefix: 'carousel',
-  })
-
   return (
     <div
       ref={ref}
@@ -36,7 +21,9 @@ const Ui_Carousel: any = forwardRef<
       className={`carousel
       ${className ? className : ''} 
       ${rounded ? 'rounded-box' : ''} 
-      ${classAttributes}  
+      ${center ? 'carousel-center' : ''} 
+      ${end ? 'carousel-end' : ''} 
+      ${vertical ? 'carousel-vertical' : ''} 
       `}
     >
       {children}
@@ -46,21 +33,6 @@ const Ui_Carousel: any = forwardRef<
 
 const Item: FC = forwardRef<HTMLDivElement, Ui_CarouselProps>(({ children, className, ...rest }, ref) => {
   const { full, fullHeight, halfWidth, id, relative, style } = rest
-
-  const convertAttributeToClassName_carousel = [
-    ['full'], // NOTE: attributes to convert
-    [], // NOTE: attributes translated based on attributes above
-  ]
-
-  const usedItemsAttributes = getUsedAttributes(rest, { full })
-  const usedAttributeObj = convertObjectToArray(usedItemsAttributes)
-
-  const classAttributes = getClassNamesFromAttributes({
-    names: usedAttributeObj,
-    convert: convertAttributeToClassName_carousel,
-    withoutPrefix: [],
-    addPrefix: 'w',
-  })
 
   return (
     <div
@@ -73,7 +45,6 @@ const Item: FC = forwardRef<HTMLDivElement, Ui_CarouselProps>(({ children, class
       ${fullHeight ? 'h-full' : ''}
       ${halfWidth ? 'w-1/2' : ''}
       ${relative ? 'relative' : ''}
-      ${classAttributes}
     `}
     >
       {children}
@@ -84,28 +55,13 @@ const Item: FC = forwardRef<HTMLDivElement, Ui_CarouselProps>(({ children, class
 const Navbar: FC = forwardRef<HTMLDivElement, Ui_CarouselProps>(({ children, className, style, ...rest }, ref) => {
   const { full } = rest
 
-  const convertAttributeToClassName_carousel = [
-    ['full'], // NOTE: attributes to convert
-    [], // NOTE: attributes translated based on attributes above
-  ]
-
-  const usedItemsAttributes = getUsedAttributes(rest, { full })
-  const usedAttributeObj = convertObjectToArray(usedItemsAttributes)
-
-  const classAttributes = getClassNamesFromAttributes({
-    names: usedAttributeObj,
-    convert: convertAttributeToClassName_carousel,
-    withoutPrefix: [],
-    addPrefix: 'w',
-  })
-
   return (
     <div
       ref={ref}
       style={style}
       className={`flex justify-center w-full py-2 gap-2 
       ${className ? className : ''}
-      ${classAttributes}
+      ${full ? 'w-full' : ''}
     `}
     >
       {children}
