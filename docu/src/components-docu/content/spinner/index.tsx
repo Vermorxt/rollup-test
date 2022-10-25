@@ -3,7 +3,7 @@ import DocuAttributes from '../../controller/DocuAttributes'
 import DocuWrapper from '../../controller/DocuWrapper'
 import { FC } from 'react'
 import { spinnerCodeExamples } from './spinner-code'
-import { Ui_Badge } from '@vermorxt/rollup-test'
+import { Ui_Badge } from '@vermorxt/ui_pandora'
 
 export const Docu_Spinner: FC = props => {
   console.log('spinner docu')

@@ -1,4 +1,4 @@
-import { Ui_Button, Ui_Carousel } from '@vermorxt/rollup-test'
+import { Ui_Button, Ui_Carousel } from '@vermorxt/ui_pandora'
 
 const carouselItems = [
   'https://api.lorem.space/image/burger?w=400&h=300&hash=8B7BCDC2',

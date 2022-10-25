@@ -1,5 +1,5 @@
 import { DRAWER_ID_SIDEBAR } from '@/root/src/_constants/main'
-import { Ui_Label } from '@vermorxt/rollup-test'
+import { Ui_Label } from '@vermorxt/ui_pandora'
 
 export const labelCodeExamples = [
   {

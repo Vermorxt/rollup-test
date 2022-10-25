@@ -1,4 +1,4 @@
-import { Ui_Tooltip } from '@vermorxt/rollup-test'
+import { Ui_Tooltip } from '@vermorxt/ui_pandora'
 
 export const tooltipCodeExamples = [
   {

@@ -1,4 +1,4 @@
-import { Ui_NavLink } from '@vermorxt/rollup-test'
+import { Ui_NavLink } from '@vermorxt/ui_pandora'
 import { useTheme } from 'next-themes'
 import { FC, ReactElement, useEffect, useState } from 'react'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'

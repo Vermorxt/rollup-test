@@ -1,6 +1,6 @@
 import { BanIcon, ClockIcon, TagIcon } from '@heroicons/react/solid'
 import React from 'react'
-import { Ui_Menu } from '@vermorxt/rollup-test'
+import { Ui_Menu } from '@vermorxt/ui_pandora'
 
 export const menuCodeExamples = [
   {

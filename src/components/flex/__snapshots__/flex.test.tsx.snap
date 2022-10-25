@@ -4,8 +4,10 @@ exports[`@cms/core/[object Object] should create snapshot 1`] = `
 <div>
   <div
     class="
+        ui_flex 
           
-          wrapper"
+          "
+    style="display: flex;"
   >
     Test
   </div>

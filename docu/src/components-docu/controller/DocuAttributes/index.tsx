@@ -1,4 +1,4 @@
-import { Ui_Badge } from '@vermorxt/rollup-test'
+import { Ui_Badge } from '@vermorxt/ui_pandora'
 import { FC } from 'react'
 
 export interface DocuAttributesProps {

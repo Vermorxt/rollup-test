@@ -1,5 +1,5 @@
 import React from 'react'
-import { Ui_Drawer } from '@vermorxt/rollup-test'
+import { Ui_Drawer } from '@vermorxt/ui_pandora'
 import { AnyType } from '@/root/src/_types/AnyType'
 
 const menuItems = [

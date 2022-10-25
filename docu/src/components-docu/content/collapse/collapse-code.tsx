@@ -1,4 +1,4 @@
-import { Ui_Collapse } from '@vermorxt/rollup-test'
+import { Ui_Collapse } from '@vermorxt/ui_pandora'
 
 export const collapseCodeExamples = [
   {

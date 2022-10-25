@@ -1,4 +1,4 @@
-import { Ui_Avatar } from '@vermorxt/rollup-test'
+import { Ui_Avatar } from '@vermorxt/ui_pandora'
 
 export const avatarCodeExamples = [
   {

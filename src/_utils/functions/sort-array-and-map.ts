@@ -1,4 +1,4 @@
-import { AnyType } from './../../_types/AnyType'
+import { AnyType } from '../../_types/AnyType'
 
 export const sortArraysAndMap = (array: AnyType[], order: string[], key: string | number) => {
   if (!array || array.length <= 0 || !Array.isArray(array)) {

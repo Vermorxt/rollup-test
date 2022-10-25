@@ -1,4 +1,4 @@
-import { Ui_Indicator, Ui_Input, Ui_Card, Ui_Button, Ui_Avatar } from '@vermorxt/rollup-test'
+import { Ui_Indicator, Ui_Input, Ui_Card, Ui_Button, Ui_Avatar } from '@vermorxt/ui_pandora'
 
 export const indicatorCodeExamples = [
   {

@@ -1,5 +1,5 @@
 import { HeartIcon } from '@heroicons/react/solid'
-import { Ui_Badge, Ui_Button } from '@vermorxt/rollup-test'
+import { Ui_Badge, Ui_Button } from '@vermorxt/ui_pandora'
 
 export const badgeCodeExamples = [
   {

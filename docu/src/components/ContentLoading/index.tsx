@@ -1,6 +1,6 @@
 import dayjs from 'dayjs'
 import React, { FC, ReactNode } from 'react'
-import { Ui_Link, Ui_Spinner } from '@vermorxt/rollup-test'
+import { Ui_Link, Ui_Spinner } from '@vermorxt/ui_pandora'
 import { COPYRIGHT, GITHUB_REPO_LINK, PROJECT_NAME } from '../../_constants/main'
 
 export interface LoadingProps {

@@ -1,5 +1,5 @@
 import { MenuIcon } from '@heroicons/react/solid'
-import { Ui_Label } from '@vermorxt/rollup-test'
+import { Ui_Label } from '@vermorxt/ui_pandora'
 import { DarkLightChanger } from '../../components/DarkLightChanger'
 import { LanguageSelector } from '../../components/LanguageSelector'
 import { ThemeChanger } from '../../components/ThemeChanger'

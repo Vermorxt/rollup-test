@@ -1,4 +1,4 @@
-import { Ui_Drawer } from '@vermorxt/rollup-test'
+import { Ui_Drawer } from '@vermorxt/ui_pandora'
 import { FC } from 'react'
 import { Breadcrumbs } from '../../components/Breadcrumbs'
 import { DRAWER_ID_SIDEBAR } from '../../_constants/main'

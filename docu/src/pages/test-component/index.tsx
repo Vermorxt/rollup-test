@@ -13,7 +13,7 @@ import {
   Ui_Mask,
   Ui_MockupCode,
   Ui_Range,
-} from '@vermorxt/rollup-test'
+} from '@vermorxt/ui_pandora'
 
 const imgSrc = 'https://api.lorem.space/image/shoes?w=160&h=160'
 

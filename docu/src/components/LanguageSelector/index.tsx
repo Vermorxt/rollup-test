@@ -1,5 +1,5 @@
 import { ChevronDownIcon } from '@heroicons/react/solid'
-import { Ui_Dropdown, Ui_Flag } from '@vermorxt/rollup-test'
+import { Ui_Dropdown, Ui_Flag } from '@vermorxt/ui_pandora'
 import { NextRouter, useRouter } from 'next/router'
 import { FC } from 'react'
 

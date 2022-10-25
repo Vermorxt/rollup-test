@@ -1,4 +1,4 @@
-import { Ui_TextArea } from '@vermorxt/rollup-test'
+import { Ui_TextArea } from '@vermorxt/ui_pandora'
 
 export const textAreaCodeExamples = [
   {

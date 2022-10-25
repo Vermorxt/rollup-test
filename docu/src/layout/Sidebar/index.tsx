@@ -1,4 +1,4 @@
-import { Ui_Collapse, Ui_Divider, Ui_Label, Ui_NavLink } from '@vermorxt/rollup-test'
+import { Ui_Collapse, Ui_Divider, Ui_Label, Ui_NavLink } from '@vermorxt/ui_pandora'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import React, { FC, useEffect, useState } from 'react'

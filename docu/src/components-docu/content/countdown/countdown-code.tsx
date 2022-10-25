@@ -1,4 +1,4 @@
-import { Ui_Countdown } from '@vermorxt/rollup-test'
+import { Ui_Countdown } from '@vermorxt/ui_pandora'
 import dayjs from 'dayjs'
 
 export const countdownCodeExamples = [

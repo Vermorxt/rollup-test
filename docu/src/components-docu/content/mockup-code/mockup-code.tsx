@@ -1,4 +1,4 @@
-import { Ui_MockupCode } from '@vermorxt/rollup-test'
+import { Ui_MockupCode } from '@vermorxt/ui_pandora'
 
 export const mockupCodeCodeExamples = [
   {
