@@ -8,6 +8,7 @@ import { terser } from 'rollup-plugin-terser'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import css from 'rollup-plugin-css-export'
 import tailwind from 'rollup-plugin-tailwind'
+import svg from 'rollup-plugin-svg'
 
 const packageJson = require('./package.json')
 
@@ -34,6 +35,7 @@ export default [
       peerDepsExternal(),
       terser(),
       tailwind(),
+      svg(),
       typescript({
         tsconfig: './tsconfig.json',
       }),

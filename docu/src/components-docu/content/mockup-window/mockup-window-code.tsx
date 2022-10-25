@@ -3,7 +3,7 @@ import { Ui_MockupWindow } from '@vermorxt/rollup-test'
 export const mockupWindowCodeExamples = [
   {
     id: 'MockupWindow',
-    title: 'Mockup phone simple',
+    title: 'Mockup window simple',
     preview: (
       <>
         <Ui_MockupWindow border="base-300" className=" w-full">
@@ -18,7 +18,7 @@ export const mockupWindowCodeExamples = [
   },
   {
     id: 'MockupWindow',
-    title: 'Mockup phone simple',
+    title: 'Mockup window simple',
     preview: (
       <>
         <Ui_MockupWindow className="w-full border" bgColor="base-300">

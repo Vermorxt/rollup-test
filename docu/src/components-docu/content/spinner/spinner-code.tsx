@@ -24,7 +24,7 @@ export const spinnerCodeExamples = [
       </div>
     ),
     codeExample: `
- <div>
+<div>
   <Ui_Spinner strokeWidth={10} />
 </div>
   `,
@@ -55,7 +55,7 @@ export const spinnerCodeExamples = [
       </div>
     ),
     codeExample: `
- <div className="flex gap-2 flex-col">
+<div className="flex gap-2 flex-col">
   <Ui_Spinner large />
   <Ui_Spinner medium />
   <Ui_Spinner small />
