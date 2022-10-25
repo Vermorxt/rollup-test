@@ -1,4 +1,4 @@
-import { Ui_Range } from '@vermorxt/rollup-test'
+import { Ui_Range } from '@vermorxt/ui_pandora'
 
 export const rangeCodeExamples = [
   {

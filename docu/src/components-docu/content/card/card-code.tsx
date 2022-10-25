@@ -1,5 +1,5 @@
 import { XIcon } from '@heroicons/react/solid'
-import { Ui_Badge, Ui_Button, Ui_Card } from '@vermorxt/rollup-test'
+import { Ui_Badge, Ui_Button, Ui_Card } from '@vermorxt/ui_pandora'
 
 export const cardCodeExamples = [
   {

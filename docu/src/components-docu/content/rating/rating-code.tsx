@@ -1,5 +1,5 @@
 import { OnChange } from './../../../_types/OnChange'
-import { Ui_Rating } from '@vermorxt/rollup-test'
+import { Ui_Rating } from '@vermorxt/ui_pandora'
 
 export const ratingCodeExamples = [
   {

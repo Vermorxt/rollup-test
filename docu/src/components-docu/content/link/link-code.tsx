@@ -1,4 +1,4 @@
-import { Ui_Link } from '@vermorxt/rollup-test'
+import { Ui_Link } from '@vermorxt/ui_pandora'
 
 export const linkCodeExamples = [
   {

@@ -1,4 +1,4 @@
-import { Ui_InputGroup, Ui_Input } from '@vermorxt/rollup-test'
+import { Ui_InputGroup, Ui_Input } from '@vermorxt/ui_pandora'
 
 export const inputGroupCodeExamples = [
   {

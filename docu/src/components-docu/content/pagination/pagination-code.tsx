@@ -1,4 +1,4 @@
-import { Ui_Button, Ui_ButtonGroup } from '@vermorxt/rollup-test'
+import { Ui_Button, Ui_ButtonGroup } from '@vermorxt/ui_pandora'
 
 export const paginationCodeExamples = [
   {

@@ -1,4 +1,4 @@
-import { Ui_Kbd } from '@vermorxt/rollup-test'
+import { Ui_Kbd } from '@vermorxt/ui_pandora'
 
 export const kbdCodeExamples = [
   {

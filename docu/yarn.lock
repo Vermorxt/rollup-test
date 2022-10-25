@@ -3406,10 +3406,10 @@
     "@typescript-eslint/types" "5.40.1"
     eslint-visitor-keys "^3.3.0"
 
-"@vermorxt/rollup-test@0.0.64":
-  version "0.0.64"
-  resolved "https://npm.pkg.github.com/download/@vermorxt/rollup-test/0.0.64/9b1df294b5d82d77893ac5ca48827f79912cbd2a#9b1df294b5d82d77893ac5ca48827f79912cbd2a"
-  integrity sha512-qiOSrt3OzlqwHB91rLuycbrBUuF4Zm/fq/P07ln1lq323m2Wvg14ZPe7Bc+hJRl4Q6ycZnUaFVYq6QeH+TntBw==
+"@vermorxt/ui_pandora@0.0.1":
+  version "0.0.1"
+  resolved "https://npm.pkg.github.com/download/@vermorxt/ui_pandora/0.0.1/f39edad14c93628a80d0eaf901de9c28965e6c83#f39edad14c93628a80d0eaf901de9c28965e6c83"
+  integrity sha512-7avpL7SQucuzXgPSW61rjL4PAM2qYXysIENdH7VEZKZJIdKBH+wzFDbZd3M7S+CHl3c5weUgmHDBXayV/je24A==
   dependencies:
     "@heroicons/react" "^1.0.6"
     axios "^1.1.3"

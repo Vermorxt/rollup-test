@@ -1,4 +1,4 @@
-import { Ui_RadialProgress } from '@vermorxt/rollup-test'
+import { Ui_RadialProgress } from '@vermorxt/ui_pandora'
 
 export const radialProgressCodeExamples = [
   {

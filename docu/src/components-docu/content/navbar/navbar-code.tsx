@@ -1,5 +1,5 @@
 import { DotsHorizontalIcon, MenuIcon } from '@heroicons/react/solid'
-import { Ui_Navbar, Ui_Button } from '@vermorxt/rollup-test'
+import { Ui_Navbar, Ui_Button } from '@vermorxt/ui_pandora'
 
 export const navbarCodeExamples = [
   {

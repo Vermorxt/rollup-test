@@ -1,4 +1,4 @@
-import { Ui_Mask } from '@vermorxt/rollup-test'
+import { Ui_Mask } from '@vermorxt/ui_pandora'
 
 const imgSrc = 'https://api.lorem.space/image/shoes?w=160&h=160'
 export const maskCodeExamples = [

@@ -1,4 +1,4 @@
-import { Ui_Checkbox } from '@vermorxt/rollup-test'
+import { Ui_Checkbox } from '@vermorxt/ui_pandora'
 
 export const checkboxCodeExamples = [
   {

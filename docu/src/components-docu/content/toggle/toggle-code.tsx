@@ -1,4 +1,4 @@
-import { Ui_Toggle } from '@vermorxt/rollup-test'
+import { Ui_Toggle } from '@vermorxt/ui_pandora'
 
 export const toggleCodeExamples = [
   {

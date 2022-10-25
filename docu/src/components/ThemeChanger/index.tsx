@@ -1,5 +1,5 @@
 import { ChevronDownIcon, ColorSwatchIcon } from '@heroicons/react/solid'
-import { Ui_Dropdown } from '@vermorxt/rollup-test'
+import { Ui_Dropdown } from '@vermorxt/ui_pandora'
 import { useTheme } from 'next-themes'
 
 export interface UseThemeProps {

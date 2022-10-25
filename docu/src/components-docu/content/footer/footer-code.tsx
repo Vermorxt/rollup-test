@@ -1,5 +1,5 @@
 import { HashtagIcon } from '@heroicons/react/solid'
-import { Ui_Button, Ui_Footer, Ui_Input } from '@vermorxt/rollup-test'
+import { Ui_Button, Ui_Footer, Ui_Input } from '@vermorxt/ui_pandora'
 
 export const footerCodeExamples = [
   {

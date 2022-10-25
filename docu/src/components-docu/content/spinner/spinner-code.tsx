@@ -1,4 +1,4 @@
-import { Ui_Spinner } from '@vermorxt/rollup-test'
+import { Ui_Spinner } from '@vermorxt/ui_pandora'
 
 export const spinnerCodeExamples = [
   {

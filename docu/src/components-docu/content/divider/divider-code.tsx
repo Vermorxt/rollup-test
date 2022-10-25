@@ -1,4 +1,4 @@
-import { Ui_Divider } from '@vermorxt/rollup-test'
+import { Ui_Divider } from '@vermorxt/ui_pandora'
 
 export const dividerCodeExamples = [
   {

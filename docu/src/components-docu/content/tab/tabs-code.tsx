@@ -1,4 +1,4 @@
-import { Ui_Tabs } from '@vermorxt/rollup-test'
+import { Ui_Tabs } from '@vermorxt/ui_pandora'
 
 export const tabsCodeExamples = [
   {

@@ -1,4 +1,4 @@
-import { Ui_Artboard } from '@vermorxt/rollup-test'
+import { Ui_Artboard } from '@vermorxt/ui_pandora'
 
 export const artboardCodeExamples = [
   {

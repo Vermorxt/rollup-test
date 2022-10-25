@@ -1,4 +1,4 @@
-import { Ui_Button, Ui_ButtonGroup, Ui_Radio } from '@vermorxt/rollup-test'
+import { Ui_Button, Ui_ButtonGroup, Ui_Radio } from '@vermorxt/ui_pandora'
 
 export const buttonGroupCodeExamples = [
   {

@@ -1,4 +1,4 @@
-import { Ui_Modal } from '@vermorxt/rollup-test'
+import { Ui_Modal } from '@vermorxt/ui_pandora'
 
 export const modalCodeExamples = [
   {

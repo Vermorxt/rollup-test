@@ -1,4 +1,4 @@
-import { Ui_Stack, Ui_Card } from '@vermorxt/rollup-test'
+import { Ui_Stack, Ui_Card } from '@vermorxt/ui_pandora'
 
 export const stackCodeExamples = [
   {

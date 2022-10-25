@@ -1,5 +1,5 @@
 import { FolderAddIcon, FolderIcon } from '@heroicons/react/solid'
-import { Ui_Breadcrumbs } from '@vermorxt/rollup-test'
+import { Ui_Breadcrumbs } from '@vermorxt/ui_pandora'
 
 export const breadcrumbsCodeExamples = [
   {

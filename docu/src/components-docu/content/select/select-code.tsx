@@ -1,4 +1,4 @@
-import { Ui_Select } from '@vermorxt/rollup-test'
+import { Ui_Select } from '@vermorxt/ui_pandora'
 
 const options = ['Homer', 'Marge', 'Lisa', 'Bart', 'Maggie']
 

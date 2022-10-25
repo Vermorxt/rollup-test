@@ -1,9 +1,9 @@
 {
-  "name": "@vermorxt/rollup-test",
+  "name": "@vermorxt/ui_pandora",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/vermorxt"
   },
-  "version": "0.0.64",
+  "version": "0.0.1",
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",

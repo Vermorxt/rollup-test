@@ -1,5 +1,5 @@
 import { RoutesDocu } from '@/root/src/_enums/routes-docu'
-import { Ui_NavLink } from '@vermorxt/rollup-test'
+import { Ui_NavLink } from '@vermorxt/ui_pandora'
 
 export const navLinkCodeExamples = [
   {

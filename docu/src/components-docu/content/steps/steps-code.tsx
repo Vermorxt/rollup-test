@@ -1,4 +1,4 @@
-import { Ui_Steps } from '@vermorxt/rollup-test'
+import { Ui_Steps } from '@vermorxt/ui_pandora'
 
 export const stepsCodeExamples = [
   {

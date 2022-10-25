@@ -1,4 +1,4 @@
-import { Ui_Progress } from '@vermorxt/rollup-test'
+import { Ui_Progress } from '@vermorxt/ui_pandora'
 
 export const progressCodeExamples = [
   {

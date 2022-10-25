@@ -1,5 +1,5 @@
 import React from 'react'
-import { Ui_Button, Ui_Card, Ui_Hero, Ui_Input } from '@vermorxt/rollup-test'
+import { Ui_Button, Ui_Card, Ui_Hero, Ui_Input } from '@vermorxt/ui_pandora'
 
 export const heroCodeExamples = [
   {

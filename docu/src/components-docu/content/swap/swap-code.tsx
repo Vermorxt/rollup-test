@@ -1,4 +1,4 @@
-import { Ui_Swap } from '@vermorxt/rollup-test'
+import { Ui_Swap } from '@vermorxt/ui_pandora'
 
 export const swapCodeExamples = [
   {

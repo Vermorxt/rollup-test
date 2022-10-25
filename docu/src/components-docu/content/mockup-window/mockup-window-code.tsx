@@ -1,4 +1,4 @@
-import { Ui_MockupWindow } from '@vermorxt/rollup-test'
+import { Ui_MockupWindow } from '@vermorxt/ui_pandora'
 
 export const mockupWindowCodeExamples = [
   {

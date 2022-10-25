@@ -1,6 +1,6 @@
 import { defaultUlMenuClassNames } from '@/root/src/components/LanguageSelector'
 import { InformationCircleIcon } from '@heroicons/react/solid'
-import { Ui_Dropdown } from '@vermorxt/rollup-test'
+import { Ui_Dropdown } from '@vermorxt/ui_pandora'
 
 const dummyListItems = (
   <ul className={defaultUlMenuClassNames}>
