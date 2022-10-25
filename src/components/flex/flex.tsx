@@ -8,6 +8,7 @@ export const Ui_Flex = forwardRef<HTMLDivElement, Ui_FlexProps>(
       <div
         {...rest}
         className={`
+        ui_flex 
           ${className ? className : ''}
           `}
         ref={ref}
