@@ -9,7 +9,7 @@ const Ui_Divider = forwardRef<HTMLDivElement, Ui_DividerProps>(
         className={`
       divider${' '}
       ${horizontal ? 'divider-horizontal' : ''} 
-      ${(className as string) || ''} 
+      ${className || ''} 
       `}
         style={style}
         ref={ref}

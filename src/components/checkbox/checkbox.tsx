@@ -21,6 +21,7 @@ const Ui_Checkbox = forwardRef<HTMLInputElement, Ui_CheckboxProps>(
     const refElem = useRef<HTMLInputElement>(null) || ref
 
     const { large, medium, small, tiny, mini } = rest
+    const { primary, secondary, accent, info, error, success, warning, ghost, neutral, link } = rest
 
     useEffect(() => {
       if (refElem?.current && indeterminate) {
@@ -42,6 +43,16 @@ const Ui_Checkbox = forwardRef<HTMLInputElement, Ui_CheckboxProps>(
         ${small ? 'checkbox-sm' : ''}
         ${tiny ? 'checkbox-xs' : ''}
         ${mini ? 'checkbox-xxs' : ''}
+        ${primary ? 'checkbox-primary' : ''}
+        ${secondary ? 'checkbox-secondary' : ''}
+        ${accent ? 'checkbox-accent' : ''}
+        ${info ? 'checkbox-info' : ''}
+        ${error ? 'checkbox-error' : ''}
+        ${success ? 'checkbox-success' : ''}
+        ${warning ? 'checkbox-warning' : ''}
+        ${ghost ? 'checkbox-ghost' : ''}
+        ${neutral ? 'checkbox-neutral' : ''}
+        ${link ? 'checkbox-link' : ''}
       ${(className as string) || ''}
       `}
         {...{ onChange, name }}
@@ -60,6 +71,16 @@ const Ui_Checkbox = forwardRef<HTMLInputElement, Ui_CheckboxProps>(
                 ${small ? 'text-sm' : ''}
                 ${tiny ? 'text-xs' : ''}
                 ${mini ? 'text-xxs' : ''}
+                ${primary ? 'text-primary' : ''}
+                ${secondary ? 'text-secondary' : ''}
+                ${accent ? 'text-accent' : ''}
+                ${info ? 'text-info' : ''}
+                ${error ? 'text-error' : ''}
+                ${success ? 'text-success' : ''}
+                ${warning ? 'text-warning' : ''}
+                ${ghost ? 'text-ghost' : ''}
+                ${neutral ? 'text-neutral' : ''}
+                ${link ? 'text-link' : ''}
             `}
             >
               {label}
@@ -74,7 +95,18 @@ const Ui_Checkbox = forwardRef<HTMLInputElement, Ui_CheckboxProps>(
                 ${medium ? 'text-base' : ''}
                 ${small ? 'text-sm' : ''}
                 ${tiny ? 'text-xs' : ''}
-                ${mini ? 'text-xxs' : ''}`}
+                ${mini ? 'text-xxs' : ''}
+                ${primary ? 'text-primary' : ''}
+                ${secondary ? 'text-secondary' : ''}
+                ${accent ? 'text-accent' : ''}
+                ${info ? 'text-info' : ''}
+                ${error ? 'text-error' : ''}
+                ${success ? 'text-success' : ''}
+                ${warning ? 'text-warning' : ''}
+                ${ghost ? 'text-ghost' : ''}
+                ${neutral ? 'text-neutral' : ''}
+                ${link ? 'text-link' : ''}
+              `}
             >
               {label}
             </span>

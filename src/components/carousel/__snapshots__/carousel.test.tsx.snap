@@ -6,7 +6,9 @@ exports[`@cms/core/Ui_Carousel should match snapshot 1`] = `
     class="carousel
        
        
-        
+       
+       
+       
       "
   />
 </div>

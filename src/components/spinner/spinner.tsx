@@ -37,21 +37,23 @@ const Ui_Spinner: FC<Ui_SpinnerProps> = props => {
   }
 
   return (
-    <svg
-      className={`${scss.spinner} ${scss[sizeClass]} ${className ? className : ''}`}
-      viewBox="0 0 50 50"
-      style={style}
-    >
-      <circle
-        className={scss.path}
-        style={color ? { stroke: color } : undefined}
-        cx="25"
-        cy="25"
-        r="20"
-        fill="none"
-        strokeWidth={strokeWidth || strokeWidthValue}
-      ></circle>
-    </svg>
+    <div style={{ width: '100%' }}>
+      <svg
+        className={`${scss.spinner} ${scss[sizeClass]} ${className ? className : ''}`}
+        viewBox="0 0 50 50"
+        style={style}
+      >
+        <circle
+          className={scss.path}
+          style={color ? { stroke: color } : undefined}
+          cx="25"
+          cy="25"
+          r="20"
+          fill="none"
+          strokeWidth={strokeWidth || strokeWidthValue}
+        ></circle>
+      </svg>
+    </div>
   )
 }
 

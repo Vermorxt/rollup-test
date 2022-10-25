@@ -1,6 +1,6 @@
 import { ComponentPropsWithoutRef, CSSProperties, FC, ReactNode } from 'react'
-import scss from './flex-grow.module.scss'
 import React from 'react'
+import style from 'react-syntax-highlighter/dist/esm/styles/hljs/a11y-dark'
 
 export interface Ui_FlexGrowProps {
   props?: ComponentPropsWithoutRef<'div'>
@@ -11,18 +11,18 @@ export interface Ui_FlexGrowProps {
 }
 
 const Ui_FlexGrow: FC<Ui_FlexGrowProps> & { Static: FC<Ui_FlexGrowProps>; Full: FC<Ui_FlexGrowProps> } = props => (
-  <div className={scss.flex} {...props}>
+  <div style={{ ...style, display: 'flex', width: '100%' }} {...props}>
     {props?.children}
   </div>
 )
 
 const Static: FC<Ui_FlexGrowProps> = props => (
-  <div className={scss.static} {...props}>
+  <div style={{ ...style, display: 'block' }} {...props}>
     {props?.children}
   </div>
 )
 const Full: FC<Ui_FlexGrowProps> = props => (
-  <div className={scss.grow} {...props}>
+  <div style={{ ...style, flexGrow: 1 }} {...props}>
     {props?.children}
   </div>
 )

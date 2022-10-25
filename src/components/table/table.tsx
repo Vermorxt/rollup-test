@@ -35,30 +35,24 @@ const Ui_Table: any = forwardRef<
     },
     ref
   ) => {
-    const colorClass = generateClassNames(
-      {
-        info,
-        warning,
-        success,
-        error,
-        primary,
-        secondary,
-        accent,
-        ghost,
-        link,
-        neutral,
-      },
-      'bg'
-    )
-
     return (
       <table
         tabIndex={0}
         className={`table w-full 
         ${className ? className : ''}
         ${compact ? 'table-compact table-auto ' : ''}
-        ${bgColor ? `bg-${bgColor} text-${bgColor}-content` : ''}
-        ${colorClass.classNames ? `${colorClass.classAttributesText}-content ${colorClass.classNames}` : ''} 
+        ${bgColor === 'primary' ? `bg-primary text-primary-content` : ''}
+        ${bgColor === 'secondary' ? `bg-secondary text-secondary-content` : ''}
+        ${primary ? `bg-primary text-primary-content` : ''}
+        ${secondary ? `bg-secondary text-secondary-content` : ''}
+        ${success ? `bg-success text-success-content` : ''}
+        ${error ? `bg-error text-error-content` : ''}
+        ${warning ? `bg-warning text-warning-content` : ''}
+        ${info ? `bg-info text-info-content` : ''}
+        ${accent ? `bg-accent text-accent-content` : ''}
+        ${ghost ? `bg-ghost text-ghost-content` : ''}
+        ${link ? `bg-link text-link-content` : ''}
+        ${neutral ? `bg-neutral text-neutral-content` : ''}
       `}
         style={style}
         ref={ref}
@@ -91,21 +85,6 @@ const TableHead: any = forwardRef<HTMLTableSectionElement, Ui_TableProps>(
     },
     ref
   ) => {
-    const colorClass = generateClassNames(
-      {
-        info,
-        warning,
-        success,
-        error,
-        primary,
-        secondary,
-        accent,
-        ghost,
-        link,
-        neutral,
-      },
-      'bg'
-    )
     return (
       <thead
         tabIndex={0}
@@ -113,7 +92,18 @@ const TableHead: any = forwardRef<HTMLTableSectionElement, Ui_TableProps>(
           ${className ? className : ''}
           ${bgColor ? `bg-${bgColor} text-${bgColor}-content` : ''}
           ${textColor ? `text-${textColor}` : ''}
-          ${colorClass.classNames ? `${colorClass.classAttributesText}-content ${colorClass.classNames}` : ''} 
+          ${bgColor === 'primary' ? `bg-primary text-primary-content` : ''}
+          ${bgColor === 'secondary' ? `bg-secondary text-secondary-content` : ''}
+          ${primary ? `bg-primary text-primary-content` : ''}
+          ${secondary ? `bg-secondary text-secondary-content` : ''}
+          ${success ? `bg-success text-success-content` : ''}
+          ${error ? `bg-error text-error-content` : ''}
+          ${warning ? `bg-warning text-warning-content` : ''}
+          ${info ? `bg-info text-info-content` : ''}
+          ${accent ? `bg-accent text-accent-content` : ''}
+          ${ghost ? `bg-ghost text-ghost-content` : ''}
+          ${link ? `bg-link text-link-content` : ''}
+          ${neutral ? `bg-neutral text-neutral-content` : ''}
         `}
         style={style}
         ref={ref}
@@ -148,21 +138,6 @@ const TableRow: any = forwardRef<HTMLTableRowElement, Ui_TableProps>(
     },
     ref
   ) => {
-    const colorClass = generateClassNames(
-      {
-        info,
-        warning,
-        success,
-        error,
-        primary,
-        secondary,
-        accent,
-        ghost,
-        link,
-        neutral,
-      },
-      'bg'
-    )
     return (
       <tr
         className={`
@@ -172,7 +147,16 @@ const TableRow: any = forwardRef<HTMLTableRowElement, Ui_TableProps>(
             ${textColor ? `text-${textColor}` : ''}
             ${active ? `active` : ''}
             ${hover ? `hover` : ''} 
-            ${colorClass.classNames ? `${colorClass.classAttributesText}-content ${colorClass.classNames}` : ''} 
+            ${primary ? `bg-primary text-primary-content` : ''}
+            ${secondary ? `bg-secondary text-secondary-content` : ''}
+            ${success ? `bg-success text-success-content` : ''}
+            ${error ? `bg-error text-error-content` : ''}
+            ${warning ? `bg-warning text-warning-content` : ''}
+            ${info ? `bg-info text-info-content` : ''}
+            ${accent ? `bg-accent text-accent-content` : ''}
+            ${ghost ? `bg-ghost text-ghost-content` : ''}
+            ${link ? `bg-link text-link-content` : ''}
+            ${neutral ? `bg-neutral text-neutral-content` : ''}
           `}
         style={style}
         ref={ref}
@@ -207,21 +191,6 @@ const Td: any = forwardRef<HTMLTableCellElement, Ui_TableProps>(
     },
     ref
   ) => {
-    const colorClass = generateClassNames(
-      {
-        info,
-        warning,
-        success,
-        error,
-        primary,
-        secondary,
-        accent,
-        ghost,
-        link,
-        neutral,
-      },
-      'bg'
-    )
     const { colSpan } = rest
 
     return (
@@ -231,7 +200,16 @@ const Td: any = forwardRef<HTMLTableCellElement, Ui_TableProps>(
           ${className ? className : ''}
           ${bgColor ? `bg-${bgColor} text-${bgColor}-content` : ''}
           ${textColor ? `text-${textColor}` : ''}
-          ${colorClass.classNames ? `${colorClass.classAttributesText}-content ${colorClass.classNames}` : ''} 
+          ${primary ? `bg-primary text-primary-content` : ''}
+          ${secondary ? `bg-secondary text-secondary-content` : ''}
+          ${success ? `bg-success text-success-content` : ''}
+          ${error ? `bg-error text-error-content` : ''}
+          ${warning ? `bg-warning text-warning-content` : ''}
+          ${info ? `bg-info text-info-content` : ''}
+          ${accent ? `bg-accent text-accent-content` : ''}
+          ${ghost ? `bg-ghost text-ghost-content` : ''}
+          ${link ? `bg-link text-link-content` : ''}
+          ${neutral ? `bg-neutral text-neutral-content` : ''}
         `}
         style={style}
         ref={ref}
@@ -265,21 +243,6 @@ const Th: any = forwardRef<HTMLTableCellElement, Ui_TableProps>(
     },
     ref
   ) => {
-    const colorClass = generateClassNames(
-      {
-        info,
-        warning,
-        success,
-        error,
-        primary,
-        secondary,
-        accent,
-        ghost,
-        link,
-        neutral,
-      },
-      'bg'
-    )
     const { stickyHeader } = rest
 
     return (
@@ -290,7 +253,16 @@ const Th: any = forwardRef<HTMLTableCellElement, Ui_TableProps>(
           ${bgColor ? `bg-${bgColor} text-${bgColor}-content` : ''}
           ${textColor ? `text-${textColor}` : ''}  
           ${stickyHeader ? `sticky top-0` : ''}
-          ${colorClass.classNames ? `${colorClass.classAttributesText}-content ${colorClass.classNames}` : ''} 
+          ${primary ? `bg-primary text-primary-content` : ''}
+          ${secondary ? `bg-secondary text-secondary-content` : ''}
+          ${success ? `bg-success text-success-content` : ''}
+          ${error ? `bg-error text-error-content` : ''}
+          ${warning ? `bg-warning text-warning-content` : ''}
+          ${info ? `bg-info text-info-content` : ''}
+          ${accent ? `bg-accent text-accent-content` : ''}
+          ${ghost ? `bg-ghost text-ghost-content` : ''}
+          ${link ? `bg-link text-link-content` : ''}
+          ${neutral ? `bg-neutral text-neutral-content` : ''} 
         `}
         style={style}
         ref={ref}
@@ -323,21 +295,6 @@ const TableBody: any = forwardRef<HTMLTableSectionElement, Ui_TableProps>(
     },
     ref
   ) => {
-    const colorClass = generateClassNames(
-      {
-        info,
-        warning,
-        success,
-        error,
-        primary,
-        secondary,
-        accent,
-        ghost,
-        link,
-        neutral,
-      },
-      'bg'
-    )
     return (
       <tbody
         className={`
@@ -345,7 +302,16 @@ const TableBody: any = forwardRef<HTMLTableSectionElement, Ui_TableProps>(
           ${className ? className : ''}
           ${bgColor ? `bg-${bgColor} text-${bgColor}-content` : ''}
           ${textColor ? `text-${textColor}` : ''}
-          ${colorClass.classNames ? `${colorClass.classAttributesText}-content ${colorClass.classNames}` : ''} 
+          ${primary ? `bg-primary text-primary-content` : ''}
+          ${secondary ? `bg-secondary text-secondary-content` : ''}
+          ${success ? `bg-success text-success-content` : ''}
+          ${error ? `bg-error text-error-content` : ''}
+          ${warning ? `bg-warning text-warning-content` : ''}
+          ${info ? `bg-info text-info-content` : ''}
+          ${accent ? `bg-accent text-accent-content` : ''}
+          ${ghost ? `bg-ghost text-ghost-content` : ''}
+          ${link ? `bg-link text-link-content` : ''}
+          ${neutral ? `bg-neutral text-neutral-content` : ''}
         `}
         style={style}
         ref={ref}
@@ -378,21 +344,6 @@ const TableFooter: any = forwardRef<HTMLTableSectionElement, Ui_TableProps>(
     },
     ref
   ) => {
-    const colorClass = generateClassNames(
-      {
-        info,
-        warning,
-        success,
-        error,
-        primary,
-        secondary,
-        accent,
-        ghost,
-        link,
-        neutral,
-      },
-      'bg'
-    )
     return (
       <tfoot
         className={`
@@ -400,7 +351,16 @@ const TableFooter: any = forwardRef<HTMLTableSectionElement, Ui_TableProps>(
           ${className ? className : ''}
           ${bgColor ? `bg-${bgColor} text-${bgColor}-content` : ''}
           ${textColor ? `text-${textColor}` : ''}
-          ${colorClass.classNames ? `${colorClass.classAttributesText}-content ${colorClass.classNames}` : ''} 
+          ${primary ? `bg-primary text-primary-content` : ''}
+          ${secondary ? `bg-secondary text-secondary-content` : ''}
+          ${success ? `bg-success text-success-content` : ''}
+          ${error ? `bg-error text-error-content` : ''}
+          ${warning ? `bg-warning text-warning-content` : ''}
+          ${info ? `bg-info text-info-content` : ''}
+          ${accent ? `bg-accent text-accent-content` : ''}
+          ${ghost ? `bg-ghost text-ghost-content` : ''}
+          ${link ? `bg-link text-link-content` : ''}
+          ${neutral ? `bg-neutral text-neutral-content` : ''}
         `}
         style={style}
         ref={ref}
